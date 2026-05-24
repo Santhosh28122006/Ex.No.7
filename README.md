@@ -1,7 +1,7 @@
 # Exno.7-Develop a prompt-based application tailored to their personal needs, fostering creativity and practical problem-solving skills while leveraging the capabilities of large language models.
 
-# Date:
-# Register no.
+# Name :Santhosh V
+# Register no. 212224230251
 # Aim: To develop a prompt-based application using ChatGPT - To demonstrate how to create a prompt-based application to organize daily tasks, showing the progression from simple to more advanced prompt designs and their corresponding outputs.
 
 #AI Tools Required: 
@@ -30,6 +30,80 @@ o Notify user of overlapping appointments or free time slots.
 o Suggest daily wellness advice (hydration, exercise, screen-time breaks).
 o Adapt suggestions based on past user preferences and responses.
 
+# Procedure
+
+## 1. Define Requirements
+The assistant should:
+- Manage tasks
+- Schedule reminders
+- Suggest wellness tips
+- Respond to general queries
+
+---
+
+## 2. Create Prompts
+
+### Basic Prompt
+> "Create a simple task manager."
+
+### Intermediate Prompt
+> "Build a productivity assistant that can add tasks and schedule reminders."
+
+### Advanced Prompt
+> "Develop an AI productivity assistant that interacts naturally and adapts to user preferences."
+
+---
+
+## 3. Simulate User Interaction
+
+```python
+tasks = []
+
+while True:
+    user = input("You: ")
+
+    if "add" in user:
+        tasks.append(user)
+        print("Assistant: Task added.")
+
+    elif "show" in user:
+        print(tasks)
+
+    elif "wellness" in user:
+        print("Assistant: Drink water and take breaks.")
+
+    elif "exit" in user:
+        break
+```
+
+---
+
+# Expected Output
+
+## Personal Productivity Assistant Features
+
+### 1. Daily Task Manager
+- Add and organize tasks
+- Show pending tasks
+
+### 2. Smart Scheduler
+- Schedule reminders
+- Detect overlapping events
+
+### 3. Wellness Tips
+- Suggest exercise and hydration reminders
+
+### Example Interaction
+
+```text
+User: Add assignment submission tomorrow.
+Assistant: Task added successfully.
+
+User: Suggest a wellness tip.
+Assistant: Take short breaks while working.
+```
+
+---
 
 
 # Result: 
